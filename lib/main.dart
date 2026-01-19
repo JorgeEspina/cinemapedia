@@ -1,9 +1,8 @@
-// paquetes propios de flutter
 import 'package:flutter/material.dart';
-// paquetes terceris de flutter
+
 import 'package:cinemapedia/config/router/app_router.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-// despues nuestras dependencias
+
 import 'package:cinemapedia/config/theme/app_theme.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

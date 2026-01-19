@@ -231,6 +231,7 @@ class _CustomSliverAppBar extends StatelessWidget {
         // ),
         background: Stack(
           children: [
+
             SizedBox.expand(
               child: Image.network(
                 movie.posterPath,
@@ -272,11 +273,15 @@ class _CustomSliverAppBar extends StatelessWidget {
                 )
               ),
             ),
+
+
+
           ],
         ),
       ),
     );
   }
 }
+
 
 

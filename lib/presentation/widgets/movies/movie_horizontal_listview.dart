@@ -64,7 +64,7 @@ class _MovieHorizontalListviewState extends State<MovieHorizontalListview> {
 
 
           Expanded(
-            child: ListView.builder( //no definido de elementos builders
+            child: ListView.builder(
               controller: scrollController,
               itemCount: widget.movies.length,
               scrollDirection: Axis.horizontal,
@@ -158,6 +158,8 @@ class _Slide extends StatelessWidget {
     );
   }
 }
+
+
 
 class _Title extends StatelessWidget {
 
